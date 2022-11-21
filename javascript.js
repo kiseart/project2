@@ -16,7 +16,7 @@ for (let i=0; i<64; i++){
         let cell = document.createElement("div");
         cell.style.backgroundColor = "#99b1e1";
         cell.style.width = "12px";
-        cell.addEventListener('mouseover', () => {
+        cell.addEventListener("drag", () => {
             cell.style.backgroundColor = "#e16931";
         });
         horizontal.appendChild(cell);
